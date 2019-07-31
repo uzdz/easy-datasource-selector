@@ -63,10 +63,9 @@ geek:
 
 ```java
 @Service
-@DataSourceSelector(value = "user")
 public class Service {
     
-    @Transactional
+    @DataSourceSelector(value = "user")
     public Object select(HttpServletRequest httpServletRequest) {
         return userMapper.selectById(12);
     }
