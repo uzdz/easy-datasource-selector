@@ -10,7 +10,7 @@ import java.util.List;
  * 数据源配置信息
  * @author uzdz
  */
-@ConfigurationProperties(prefix = "geek.multiple")
+@ConfigurationProperties(prefix = "easy.multiple")
 public class DataSourceProperties {
 
     private List<Resource> datasource = new ArrayList();

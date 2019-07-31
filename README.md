@@ -33,7 +33,7 @@ public class SimpleStudyApplication {
 > 在配置文件中配置数据库连接信息
 
 ```yaml
-geek:
+easy:
   multiple:
     datasource:
       - driverClassName: com.mysql.jdbc.Driver
